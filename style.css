@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+}
+header{
+    background-image: linear-gradient(#bbbbbb, #bbee22);
+    box-sizing: border-box;
+    padding-top: 40px;
+    height: 20vh;
+}
+.nombre{
+    color: #ffffff;
+    margin: 0;
+    width: 25%;
+}
+.content img{
+    width: 100%;
+}
