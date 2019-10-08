@@ -1,8 +1,12 @@
 body{
     margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 100vh;
+    flex-wrap: wrap;
 }
 header{
-    background-image: linear-gradient(#bbbbbb, #bbee22);
+    background-image: linear-gradient(#ddc6ac, #fe8800);
     box-sizing: border-box;
     padding-top: 40px;
     height: 20vh;
@@ -14,4 +18,10 @@ header{
 }
 .content img{
     width: 100%;
+}
+footer{
+    align-self: flex-end;
+    background-color: #fe8800;
+    width: 100%;
+    height: 100%;
 }
