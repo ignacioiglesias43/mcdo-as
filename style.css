@@ -9,7 +9,9 @@ header{
     background-image: linear-gradient(#ddc6ac, #fe8800);
     box-sizing: border-box;
     padding-top: 40px;
-    height: 20vh;
+    position: relative;
+    display: inline-block;
+    width: 100%;
 }
 .nombre{
     color: #ffffff;
@@ -17,7 +19,7 @@ header{
     width: 25%;
 }
 .content img{
-    width: 100%;
+    width: 100vh;
 }
 footer{
     align-self: flex-end;
