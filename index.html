@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta name="viewport" content="width=device-width, initial scale=1">
     <title>McDoñas</title>
@@ -15,21 +14,30 @@
         <div class="mensaje-top">
                 <h3>"Alimentando a los estudiantes desde 1989..."</h3>
         </div>
-        <nav class="menu">
-            <ul>
-                <li><a href="" class="selected">INICIO</a></li>
-                <li><a href="menu.html">MENU</a></li>
-                <li><a href="#acerca-de">ACERCA DE NOSOTROS</a></li>
-                <li><a href="#footer">CONTACTO</a></li>
-            </ul>
-        </nav>
+        <div class="container-fluid">
+            <div class="row">
+                <nav class="menu">
+                    <input type="checkbox" name="">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <ul>
+                        <li><a href="" class="selected">INICIO</a></li>
+                        <li><a href="menu.html">MENU</a></li>
+                        <li><a href="#acerca-de">CONOCENOS</a></li>
+                        <li><a href="#ubi">CONTACTO</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
     </header>
     <div class="content">
         <img src="img/burritos.jpg" alt="" class="principal">
         <div class="mensaje-bottom">
             <h3>Bienvenido a nuestra página...</h3>
         </div>
-        <div class="acerca-de" id="acerca-de"> 
+        <div class="acerca-de" id="acerca-de">
+            <img src="img/doña-burro.jpg" alt="" class="img-acerca">
             <p class="descripcion">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis eligendi assumenda quidem error suscipit quasi, nihil esse, facere deleniti repudiandae consectetur a aliquid, magni dolorum molestias dolores labore id? Dolores.
                 Odit reprehenderit ipsam, impedit mollitia molestiae quam suscipit autem architecto id! Quibusdam fugiat libero sunt provident dolorem officia, porro explicabo error minima, reiciendis iste consequuntur voluptas molestiae laborum fugit illo.
@@ -37,10 +45,16 @@
             </p>
         </div>
     </div>
-    <footer id="footer">
+    <div class="ubicacion" id="ubi">
+        <h1 style="text-align: center;">Encuéntranos:</h1>
+        <div style="width: 80%;margin-left: 10%;">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3642.007415606412!2d-110.31619442376741!3d24.101234682406652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86afd2c6f508c5ed%3A0x4bd265e5a65b4daf!2zTWNEb8OxYXM!5e0!3m2!1ses!2smx!4v1570678333170!5m2!1ses!2smx" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+    </div>
+    <footer>
         <h1>Todos los derechos reservados</h1>
-        Telefono: 612-1228795 <br>
-        Nos encontramos frente al edificio de idiomas de la UABCS
+        <h2>Telefono: 612-1228795</h2>
+        <h2>Nos encontramos frente al edificio de idiomas de la UABCS</h2>
     </footer>
 </body>
 </html>
